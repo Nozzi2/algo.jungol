@@ -15,7 +15,7 @@ public class Main_BG_1291_구구단 {
 //			end = Integer.parseInt(s[1]);
 			start = sc.nextInt();
 			end = sc.nextInt();
-			if (start > 9 || start < 2 || end > 9 || end < 2 || start == end) {
+			if (start > 9 || start < 2 || end > 9 || end < 2) {
 				System.out.println("INPUT ERROR!");
 			} else {
 				break;
